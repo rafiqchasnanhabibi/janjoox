@@ -1,2 +1,3 @@
 # janjoox
-Website Janjoox
+
+Sebagai Tugas UAS Mata Kuliah Pemrograman Berorientasi Objek
