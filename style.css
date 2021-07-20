@@ -1,0 +1,345 @@
+#home {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-family: viga;
+  font-size: 32px;
+}
+.navbar-collapse {
+  font-size: 16px;
+}
+
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+  margin-top: 2rem;
+}
+.tombole {
+  border-radius: 40px;
+  width: 100px;
+  margin: 20px;
+}
+/* Info Panel */
+.info-panel {
+  background-color: #dc3545;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -100px;
+  padding: 20px;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #fff;
+  width: 50%;
+  margin: auto;
+  margin-bottom: -3px;
+}
+
+.contact {
+  background-image: url(image/contact.jpg);
+  background-size: cover;
+}
+
+.containere {
+  margin-top: 90px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+#about {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#about {
+  background-color: antiquewhite;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 10px;
+}
+/*
+#about h5 {
+  font-size: 38px;
+  font-weight: 500;
+}
+#about .card {
+  width: 160px;
+  border-radius: 100px;
+}
+#about .nama {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+}*/
+
+#backTop {
+  position: absolute;
+  left: 1800px;
+  color: rgb(19, 17, 17);
+  font-size: 40px;
+}
+
+#form-pesan {
+  padding-top: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 720px;
+  height: 720px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 90px;
+}
+#form-pesan .form-label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.poster .img-poster {
+  width: 1024px;
+  margin-top: 150px;
+}
+.poster h2 span {
+  font-weight: 500;
+  color: white;
+}
+
+.poster p {
+  font-size: 20px;
+  margin-left: 40px;
+  color: white;
+}
+
+.poster italic {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.poster .img-poster {
+  margin-bottom: 100px;
+}
+.poster .poster-head {
+  background-color: black;
+}
+
+#search-film {
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 10px;
+  width: 70%;
+  float: left;
+}
+#search-kisah {
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 10px;
+  width: 70%;
+  float: left;
+}
+
+.container-tentangkami {
+  width: 1000px;
+}
+
+.card #kami {
+  margin: 30px;
+}
+.card img {
+  width: 150px;
+}
+
+#filme img {
+  width: 200px;
+}
+
+/* DEKSTOP VERION */
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+  .jumbotron {
+    margin-top: 74px;
+    height: 640px;
+  }
+  .jumbotron .display-4 {
+    font-size: 62px;
+  }
+  .poster h2 {
+    font-size: 20px;
+  }
+  .info-panel .img-info {
+    height: 144px;
+  }
+  .img-panelbaru {
+    width: 480px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .jumbotron {
+    background-image: url(image/home-bg.jpg);
+    height: 750px;
+    margin-top: 74px;
+    text-align: center;
+  }
+  .jumbotron .display-4 {
+    color: black;
+    padding-top: 12rem;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(244, 248, 244, 0.178);
+  }
+  .jumbotron .display-4 span {
+    font-weight: 500;
+  }
+  .panel-baru h2 {
+    font-size: 48px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+  .panel-baru h1 span {
+    font-weight: 500;
+    font-family: viga;
+  }
+
+  #list-film {
+    margin-top: 20px;
+  }
+
+  .poster h2 {
+    font-size: 48px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    color: white;
+  }
+  .card-body #kisah {
+    color: black;
+  }
+  .kolomPoster #menghibur {
+    margin-top: 120px;
+    font-size: 30px;
+  }
+  footer {
+    margin-top: 10px;
+  }
+}
+
+/* Android */
+@media (max-width: 992px) {
+  .panel-baru {
+    margin-top: 20px;
+  }
+  .img-panelbaru {
+    object-fit: cover;
+    height: 200px;
+    width: 480px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+
+  .jumbotron {
+    background-image: url(image/home-bg.jpg);
+    height: 400px;
+    margin-top: 74px;
+    text-align: center;
+  }
+  .jumbotron .display-4 {
+    color: black;
+    padding-top: 30px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(244, 248, 244, 0.178);
+  }
+  .jumbotron .display-4 span {
+    font-weight: 500;
+  }
+  .panel-baru h2 {
+    font-size: 48px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .container span {
+    font-weight: 500;
+    font-family: viga;
+  }
+
+  .kolomPoster {
+    z-index: 2;
+    margin-top: 2px;
+  }
+
+  .poster .img-poster {
+    width: 100%;
+    margin-top: -350px;
+    z-index: 1;
+    opacity: 50%;
+    height: 400px;
+    background-size: cover;
+  }
+  .poster h2 {
+    font-weight: 500;
+    color: white;
+    margin-top: 150px;
+    margin-left: 20px;
+  }
+  .poster p {
+    margin-left: 20px;
+  }
+  #search-film {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 70%;
+    float: left;
+  }
+  #search-kisah {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 70%;
+    float: left;
+  }
+  .card-body #kisah {
+    color: black;
+  }
+  .kolomPoster #menghibur {
+    margin-top: 120px;
+    font-size: 30px;
+  }
+  footer {
+    margin-top: 10px;
+  }
+  .col-lg {
+    margin-bottom: 10px;
+  }
+  #form-pesan {
+    padding-top: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #form-pesan .form-label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

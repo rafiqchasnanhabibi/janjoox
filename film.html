@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- My Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <title>Kumpulan Film | JANJOOX</title>
+  </head>
+  <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow p-2 fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><i class="bi bi-vinyl-fill"></i>Janjoox</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kesehatan.html">Kesehatan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="film.html">Films</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="story.html">Story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir navbar -->
+    <div class="container poster">
+      <!-- Poster -->
+      <div class="row poster-head">
+        <div class="col-lg kolomPoster">
+          <h2>KETIKA <span>PANDEMI</span> SEPERTI SAAT INI, KITA DIANJURKAN UNTUK <italic>STAY AT HOME</italic></h2>
+          <p>
+            Oleh karena itu kami memberikan sedikit hiburan untuk <strong>Sobat <span>JANJOOX</span></strong> yang telah setia mengunjungi situs ini. Mulai dari film lawas hingga film terbaru bisa sobat temukan.
+          </p>
+          <div class="col-lg">
+            <input type="text" class="form-control" id="search-film" placeholder="Masukkan judul .." />
+            <button class="btn btn-outline-secondary pt-2 " type="button" id="tombol-cari">Cari film</button>
+          </div>
+        </div>
+        <div class="col-md">
+          <img src="image/poster.jpg" alt="Poster" class="img-fluid img-poster" />
+        </div>
+      </div>
+      <!-- Akhir Poster -->
+      <!-- List Film -->
+      <div class="container">
+        <div class="row" id="list-film"></div>
+        <!-- Akhir List -->
+      </div>
+      </div>
+    <!-- Footer -->
+    <footer class="bg-danger text-white text-center pt-2 pb-1">
+      <p class="fw-bold">Tim 5 UAS PBO | Copyright &copy; 2021</p>
+    </footer>
+    <!-- Akhir Footer -->
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

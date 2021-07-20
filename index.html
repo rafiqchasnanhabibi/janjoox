@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <!-- My Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet" />
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <title>Home | Janjoox</title>
+</head>
+
+<body id="home">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow p-2 fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><i class="bi bi-vinyl-fill"></i>Janjoox</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kesehatan.html">Kesehatan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="film.html">Films</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="story.html">Story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir navbar -->
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Selamat datang di website <br><i class="bi bi-vinyl-fill"></i><span>Janjoox</span></h1>
+      <h3 class="text-center">Website ini dibuat untuk memenuhi UAS mata kuliah PBO.</h3>
+      <a href="#about" class="btn btn-primary tombol">Tentang Kami</a>
+    </div>
+  </div>
+  <!-- Akhir Jumbotron -->
+
+  <!-- Container -->
+  <div class="container">
+    <!-- Info Panel -->
+    <div class="row justify-content-center">
+      <div class="col info-panel">
+        <div class="row">
+          <h3>Data Covid-19 di INDONESIA</h3>
+          <div class="row" id="tanggalUpdate"></div>
+          <div class="col-lg" id="terkonfirmasi"></div>
+          <div class="col-lg" id="sembuh"></div>
+          <div class="col-lg" id="dirawat"></div>
+          <div class="col-lg" id="wafat"></div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Panel -->
+    <!-- Panel Baru -->
+    <div class="row panel-baru">
+      <div class="col-lg">
+        <h2>GUGUS TUGAS PERCEPATAN PENANGANAN <span>COVID-19</span></h2>
+        <p>
+          Dalam menangani Covid-19 diperlukan langkah-langkah cepat, tepat, fokus, terpadu dan sinergis antar
+          kementerian/lembaga dan pemerintah daerah. Untuk itu dibentuk Gugus Tugas Percepatan Penanganan Covid-19 yang
+          ditetapkan dengan
+          <strong>Keputusan Presiden No. 7/2020.</strong>
+        </p>
+        <a href="kesehatan.html" class="btn btn-primary tombol">Info Kesehatan</a>
+      </div>
+      <div class="col-lg">
+        <img src="image/masker.jpg" alt="Covid-19" class="img-fluid img-panelbaru" id="imgGede"/>
+      </div>
+      <!-- Akhir Panel Baru -->
+    </div>
+  </div>
+
+  <!-- Akhir Container -->
+  <!-- Tentang Kami -->
+  <section id="about">
+    <h3>Tentang Kami</h3>    
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-center">
+        <div class="col ">
+          <div class="card mx-auto mb-4 shadow-sm" id="kami">
+            <img src="image/rafiq.jpg" class="rounded-circle pt-4 mx-auto" alt="image/rafiq.jpg" id="geser">
+            <div class="card-body text-center ">
+              <b class="card-title ">Rafiq Chasnan Habibi</b>
+              <p class="card-text">Developer & Quality Control</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card mx-auto mb-4 shadow-sm" id="kami">
+            <img src="image/fahrudin.jpg" class="rounded-circle pt-4 mx-auto" alt="image/fahrudin.jpg">
+            <div class="card-body text-center">
+              <b class="card-title ">Imam Fahrudin</b>
+              <p class="card-text">Designer & Developer</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card mx-auto mb-4 shadow-sm" id="kami">
+            <img src="image/putri.jpg" class="rounded-circle pt-4 mx-auto" alt="image/putri.jpg" id="geser">
+            <div class="card-body text-center">
+              <b class="card-title ">Putri Damayani</b>
+              <p class="card-text">Narator</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </section>
+  <a href="#home" id="backTop"><i class="bi bi-arrow-up-circle-fill"></i></a>
+  
+  <!-- Akhir Tentang Kami -->
+<!-- Footer -->
+<footer class="bg-danger text-white text-center pt-2 pb-1">
+  <p class="fw-bold">Tim 5 UAS PBO | Copyright &copy; 2021</p>
+</footer>
+<!-- Akhir Footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
