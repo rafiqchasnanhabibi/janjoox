@@ -339,4 +339,6 @@
     font-size: 18px;
     font-weight: bold;
   }
+  .container{
+    width: 100%;
 }
