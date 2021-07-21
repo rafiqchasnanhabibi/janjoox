@@ -1,7 +1,7 @@
 $("#tombol-cari").on("click", function () {
   $("#list-film").html("");
   $.ajax({
-    url: "http://omdbapi.com",
+    url: "https://omdbapi.com",
     type: "get",
     dataType: "json",
     data: {
@@ -100,7 +100,7 @@ $("#tombol-golet").on("click", function () {
 
 $.ajax({
   type: "GET",
-  url: "http://apicovid19indonesia-v2.vercel.app/api/indonesia",
+  url: "https://apicovid19indonesia-v2.vercel.app/api/indonesia",
   data: "data",
   dataType: "json",
   success: function (result) {
@@ -186,7 +186,7 @@ $("#info").on("click", function(){
 
 $.ajax({
   type: "GET",
-  url: "http://apicovid19indonesia-v2.vercel.app/api/indonesia",
+  url: "https://apicovid19indonesia-v2.vercel.app/api/indonesia",
   data: "data",
   dataType: "json",
   success: function (result) {
